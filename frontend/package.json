@@ -2,7 +2,7 @@
   "name": "@umbra/frontend",
   "version": "2.0.2",
   "description": "Send and receive stealth payments with the Umbra protocol",
-  "productName": "Umbra",
+  "productName": "PayTest",
   "author": "Matt Solomon <matt@mattsolomon.dev>",
   "private": true,
   "scripts": {
