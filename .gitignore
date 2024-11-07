@@ -110,7 +110,7 @@ web_modules/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
+#.env
 .env.test
 
 # parcel-bundler cache (https://parceljs.org/)
@@ -159,3 +159,11 @@ dist
 # deploy history localhost files
 contracts-core/deploy-history/*localhost-*
 lcov.info
+.idea/inspectionProfiles/Project_Default.xml
+.idea/modules.xml
+.idea/payTest.iml
+.idea/prettier.xml
+.idea/vcs.xml
+.idea/codeStyles/codeStyleConfig.xml
+.idea/codeStyles/Project.xml
+.idea/workspace.xml

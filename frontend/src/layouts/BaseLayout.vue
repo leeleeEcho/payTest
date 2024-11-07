@@ -32,7 +32,7 @@
                       class="q-ml-md"
                     />
                     <div v-if="$q.screen.gt.sm" @click="$router.push({ name: 'home' })" class="text-h5 dark-toggle">
-                      <span class="primary header-black q-ml-md">Umbra</span>
+                      <span class="primary header-black q-ml-md">PayTest@Piiiza</span>
                     </div>
                     <div v-else-if="$q.screen.xs">
                       <div v-if="isLoading" class="q-ml-md row">
@@ -238,51 +238,51 @@
               rounded
             />
 
-            <p class="text-caption dark-toggle" style="font-size: 0.65rem">version {{ version }}</p>
+            <!--            <p class="text-caption dark-toggle" style="font-size: 0.65rem">version {{ version }}</p>-->
           </div>
 
           <!-- Column 2: Built by ScopeLift -->
-          <div class="col-xs-12 col-sm-4 q-mt-lg">
-            <p class="dark-toggle spaced-letters">{{ $t('Base-Layout.about') }}</p>
-            <i18n-t scope="global" keypath="Base-Layout.built-by" tag="p" class="dark-toggle text-caption">
-              <a href="https://www.scopelift.co/" target="_blank" class="hyperlink">ScopeLift</a>
-            </i18n-t>
-            <p class="">
-              <router-link class="hyperlink text-caption" :to="{ name: 'terms' }">Terms of Service</router-link>
-            </p>
-            <p class="">
-              <router-link class="hyperlink text-caption" :to="{ name: 'privacy' }">Privacy Policy</router-link>
-            </p>
-          </div>
+          <!--          <div class="col-xs-12 col-sm-4 q-mt-lg">-->
+          <!--            <p class="dark-toggle spaced-letters">{{ $t('Base-Layout.about') }}</p>-->
+          <!--            <i18n-t scope="global" keypath="Base-Layout.built-by" tag="p" class="dark-toggle text-caption">-->
+          <!--              <a href="https://www.scopelift.co/" target="_blank" class="hyperlink">ScopeLift</a>-->
+          <!--            </i18n-t>-->
+          <!--            <p class="">-->
+          <!--              <router-link class="hyperlink text-caption" :to="{ name: 'terms' }">Terms of Service</router-link>-->
+          <!--            </p>-->
+          <!--            <p class="">-->
+          <!--              <router-link class="hyperlink text-caption" :to="{ name: 'privacy' }">Privacy Policy</router-link>-->
+          <!--            </p>-->
+          <!--          </div>-->
 
           <!-- Column 3: Links -->
-          <div class="col-xs-12 col-sm-4 q-mt-lg">
-            <p class="dark-toggle spaced-letters">{{ $t('Base-Layout.links') }}</p>
-            <p>
-              <a href="https://twitter.com/UmbraCash" target="_blank" class="no-text-decoration">
-                <q-icon class="dark-toggle q-mr-md" name="fab fa-twitter" size="xs" />
-                <span class="hyperlink text-caption">Twitter</span>
-              </a>
-            </p>
-            <p>
-              <a href="https://discord.com/invite/uw4y5J2p7C" target="_blank" class="no-text-decoration">
-                <q-icon class="dark-toggle q-mr-md" name="fab fa-discord" size="xs" />
-                <span class="hyperlink text-caption">Discord</span>
-              </a>
-            </p>
-            <p>
-              <a href="https://github.com/ScopeLift/umbra-protocol" target="_blank" class="no-text-decoration">
-                <q-icon class="dark-toggle q-mr-md" name="fab fa-github" size="xs" />
-                <span class="hyperlink text-caption">GitHub</span>
-              </a>
-            </p>
-            <p>
-              <a href="mailto:support@umbra.cash" target="_blank" class="no-text-decoration">
-                <q-icon class="dark-toggle q-mr-md" name="fas fa-envelope" size="xs" />
-                <span class="hyperlink text-caption">support@umbra.cash</span>
-              </a>
-            </p>
-          </div>
+          <!--          <div class="col-xs-12 col-sm-4 q-mt-lg">-->
+          <!--            <p class="dark-toggle spaced-letters">{{ $t('Base-Layout.links') }}</p>-->
+          <!--            <p>-->
+          <!--              <a href="https://twitter.com/UmbraCash" target="_blank" class="no-text-decoration">-->
+          <!--                <q-icon class="dark-toggle q-mr-md" name="fab fa-twitter" size="xs" />-->
+          <!--                <span class="hyperlink text-caption">Twitter</span>-->
+          <!--              </a>-->
+          <!--            </p>-->
+          <!--            <p>-->
+          <!--              <a href="https://discord.com/invite/uw4y5J2p7C" target="_blank" class="no-text-decoration">-->
+          <!--                <q-icon class="dark-toggle q-mr-md" name="fab fa-discord" size="xs" />-->
+          <!--                <span class="hyperlink text-caption">Discord</span>-->
+          <!--              </a>-->
+          <!--            </p>-->
+          <!--            <p>-->
+          <!--              <a href="https://github.com/ScopeLift/umbra-protocol" target="_blank" class="no-text-decoration">-->
+          <!--                <q-icon class="dark-toggle q-mr-md" name="fab fa-github" size="xs" />-->
+          <!--                <span class="hyperlink text-caption">GitHub</span>-->
+          <!--              </a>-->
+          <!--            </p>-->
+          <!--            <p>-->
+          <!--              <a href="mailto:support@umbra.cash" target="_blank" class="no-text-decoration">-->
+          <!--                <q-icon class="dark-toggle q-mr-md" name="fas fa-envelope" size="xs" />-->
+          <!--                <span class="hyperlink text-caption">support@umbra.cash</span>-->
+          <!--              </a>-->
+          <!--            </p>-->
+          <!--          </div>-->
         </div>
       </q-footer>
 

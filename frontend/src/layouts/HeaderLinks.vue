@@ -7,20 +7,20 @@
     >
       {{ $t('Header-Links.home') }}
     </router-link>
-    <router-link
-      exactActiveClass="text-bold"
-      :class="{ 'no-text-decoration': true, 'dark-toggle': true, 'text-subtitle1': isDrawer, 'q-pa-sm': isDrawer }"
-      :to="{ name: 'FAQ' }"
-    >
-      {{ $t('Header-Links.FAQ') }}
-    </router-link>
-    <router-link
-      exactActiveClass="text-bold"
-      :class="{ 'no-text-decoration': true, 'dark-toggle': true, 'text-subtitle1': isDrawer, 'q-pa-sm': isDrawer }"
-      :to="{ name: 'contact' }"
-    >
-      {{ $t('Header-Links.contact') }}
-    </router-link>
+    <!--    <router-link-->
+    <!--      exactActiveClass="text-bold"-->
+    <!--      :class="{ 'no-text-decoration': true, 'dark-toggle': true, 'text-subtitle1': isDrawer, 'q-pa-sm': isDrawer }"-->
+    <!--      :to="{ name: 'FAQ' }"-->
+    <!--    >-->
+    <!--      {{ $t('Header-Links.FAQ') }}-->
+    <!--    </router-link>-->
+    <!--    <router-link-->
+    <!--      exactActiveClass="text-bold"-->
+    <!--      :class="{ 'no-text-decoration': true, 'dark-toggle': true, 'text-subtitle1': isDrawer, 'q-pa-sm': isDrawer }"-->
+    <!--      :to="{ name: 'contact' }"-->
+    <!--    >-->
+    <!--      {{ $t('Header-Links.contact') }}-->
+    <!--    </router-link>-->
   </div>
 </template>
 
