@@ -122,7 +122,6 @@
     "fetching-latest": "在获取最新的 10，000 条公告...",
     "fetching-latest-from-last-fetched-block": "正在获取最新公告...",
     "scanning": "在所有的公告中扫描资金...",
-
     "scanning-latest": "在最新公告中扫描资金...",
     "scanning-latest-from-last-fetched-block": "在最新公告中扫描资金...",
     "wait": "这可能需要几分钟，具体取决于您的连接和设备。这是正常的 — 请耐心等待。",
@@ -261,7 +260,7 @@
     "received": "已收到(Received)",
     "withdrawn": "已提取(Withdrawn)",
     "hide": "隐藏",
-    "withdraw": "提取(Withdraw)",
+    "withdraw": "等待确认",
     "receiver": "接受者",
     "scanning-complete": "扫描已成功完成",
     "custom-prv-key": "使用自定义私钥",
@@ -333,9 +332,10 @@
     "sent-funds": "已发送的资金",
     "storage-description": "发送历史记录是当前浏览器的本地发送历史记录，从其他浏览器或不同设备访问时会有所不同。我们这样做是为了最大限度地提高您的安全和隐私。",
     "stored-on-device": "发送历史记录仅本地存储在此设备上",
-    "use-public-key-checked": "使用收款人的标准公钥发送"
+    "use-public-key-checked": "使用收款人的标准公钥发送",
+    "button": "操作",
+    "confirm-pay": "确认交易"
   },
-
   "AccountSent": {
     "clear-history": "清除历史记录",
     "connect-wallet": "连接钱包",

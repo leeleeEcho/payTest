@@ -260,7 +260,7 @@
     "received": "Received",
     "withdrawn": "Withdrawn",
     "hide": "Hide",
-    "withdraw": "Withdraw",
+    "withdraw": "Waiting for confirmation",
     "receiver": "Receiver",
     "scanning-complete": "Scanning completed successfully",
     "custom-prv-key": " with custom private key",
@@ -334,7 +334,9 @@
     "sent-funds": "Sent funds",
     "storage-description": "The send history is local to your current browser and will differ when accessed from a different browser or a different device. We do this to maximize your security and privacy.",
     "stored-on-device": "Send history is only stored locally on this device",
-    "use-public-key-checked": "Sent using recipient's standard public key"
+    "use-public-key-checked": "Sent using recipient's standard public key",
+    "button": "Event",
+    "confirm-pay": "Confirm transaction"
   },
   "AccountSent": {
     "clear-history": "Clear history",

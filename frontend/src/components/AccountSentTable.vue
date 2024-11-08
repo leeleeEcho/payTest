@@ -23,7 +23,8 @@
       <q-card class="row justify-center q-my-none q-py-none border-top-thick">
         <q-card-section>
           <h5 class="text-bold text-center q-mt-none">
-            <q-icon name="fas fa-exclamation-triangle" color="warning" left /> {{ $t('Utils.Dialog.warning') }}
+            <q-icon name="fas fa-exclamation-triangle" color="warning" left />
+            {{ $t('Utils.Dialog.warning') }}
           </h5>
         </q-card-section>
         <q-card-section>
@@ -147,6 +148,29 @@
                 <q-icon class="copy-icon" name="far fa-copy" right />
               </div>
             </div>
+
+            <!-- Confirm column -->
+            <div v-else-if="col.name === 'button'">
+              <div class="row justify-start items-center no-wrap">
+                <div class="row justify-evenly">
+                  <base-button
+                    class="q-mr-sm"
+                    :outline="true"
+                    type="submit"
+                    @click="clearHistory()"
+                    :label="$t('AccountSentTable.confirm-pay')"
+                  />
+
+                  <base-button
+                    class="q-mr-sm"
+                    :outline="true"
+                    @click="showClearHistoryWarning = false"
+                    :label="$t('AccountSentTable.cancel')"
+                  />
+                </div>
+              </div>
+            </div>
+
             <!-- Default -->
             <div v-else>{{ col.value }}</div>
           </q-td>
@@ -203,6 +227,13 @@ export default defineComponent({
         name: 'from',
         sortable: true,
       },
+      {
+        align: 'left',
+        field: 'button',
+        label: tc('AccountSentTable.button'),
+        name: 'button',
+        sortable: false,
+      },
     ];
     return {
       context,
@@ -222,10 +253,13 @@ export default defineComponent({
 <style lang="sass" scoped>
 .copy-icon-parent:hover .copy-icon
   color: $primary
+
 .copy-icon
   color: transparent
+
 .external-link-icon-parent:hover .external-link-icon
   color: $primary
+
 .external-link-icon
   color: transparent
 </style>
