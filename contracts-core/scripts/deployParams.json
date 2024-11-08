@@ -49,7 +49,7 @@
     "expectedRegistryNonce": 5
   },
   "sepolia": {
-    "expectedDeployer": "0x5777Aa6F437399Af6cef2Fce0BE8D4B4eD7C7232",
+    "expectedDeployer": "0xf53240042331fFD88A01347396604576d3a15c59",
     "toll": "30000000000000",
     "tollCollector": "0x12aE679061C58e9f7660A2f7e6f06573014d2615",
     "tollReceiver": "0xb4435399AB53D6136C9AEEBb77a0120620b117F9",

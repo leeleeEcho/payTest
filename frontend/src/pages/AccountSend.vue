@@ -40,13 +40,13 @@
               <div class="row items-center text">
                 <span class="q-pa-sm">
                   {{ $t('Send.advanced-send-warning') }}
-                  <router-link
-                    class="hyperlink"
-                    to="/faq#how-do-i-send-funds-to-a-user-by-their-address-or-public-key"
-                    target="_blank"
-                  >
-                    {{ $t('Send.learn-more') }}
-                  </router-link>
+                  <!--                  <router-link-->
+                  <!--                    class="hyperlink"-->
+                  <!--                    to="/faq#how-do-i-send-funds-to-a-user-by-their-address-or-public-key"-->
+                  <!--                    target="_blank"-->
+                  <!--                  >-->
+                  <!--                    {{ $t('Send.learn-more') }}-->
+                  <!--                  </router-link>-->
                 </span>
               </div>
               <q-checkbox v-model="advancedAcknowledged">
@@ -66,13 +66,13 @@
               <div class="row items-center text">
                 <span class="q-pa-sm">
                   {{ $t('Send.advanced-send-warning') }}
-                  <router-link
-                    class="hyperlink"
-                    to="/faq#how-do-i-send-funds-to-a-user-by-their-address-or-public-key"
-                    target="_blank"
-                  >
-                    {{ $t('Send.learn-more') }}
-                  </router-link>
+                  <!--                  <router-link-->
+                  <!--                    class="hyperlink"-->
+                  <!--                    to="/faq#how-do-i-send-funds-to-a-user-by-their-address-or-public-key"-->
+                  <!--                    target="_blank"-->
+                  <!--                  >-->
+                  <!--                    {{ $t('Send.learn-more') }}-->
+                  <!--                  </router-link>-->
                 </span>
                 <q-checkbox v-model="acknowledgeSendRisk">
                   {{ $t('Send.acknowledge-risks') }}
@@ -133,12 +133,12 @@
                 {{ $t('Send.question-circle') }}
                 <span class="text-bold">
                   {{ $t('Send.question-circle-warning') }}
-                  <router-link
-                    class="dark-toggle hyperlink"
-                    :to="{ name: 'FAQ', hash: '#how-do-i-send-funds-to-a-user-by-their-address-or-public-key' }"
-                  >
-                    {{ $t('Send.learn-more') }}
-                  </router-link>
+                  <!--                  <router-link-->
+                  <!--                    class="dark-toggle hyperlink"-->
+                  <!--                    :to="{ name: 'FAQ', hash: '#how-do-i-send-funds-to-a-user-by-their-address-or-public-key' }"-->
+                  <!--                  >-->
+                  <!--                    {{ $t('Send.learn-more') }}-->
+                  <!--                  </router-link>-->
                 </span>
               </span>
             </base-tooltip>
@@ -195,12 +195,12 @@
                     <base-tooltip class="col-auto q-ml-xs" icon="fas fa-question-circle">
                       <span>
                         {{ $t('Send.fee-explain', { chainName: currentChain?.chainName }) }}
-                        <router-link
-                          class="dark-toggle hyperlink"
-                          :to="{ name: 'FAQ', hash: '#why-is-there-sometimes-an-umbra-fee' }"
-                        >
-                          {{ $t('Send.learn-more') }}
-                        </router-link>
+                        <!--                        <router-link-->
+                        <!--                          class="dark-toggle hyperlink"-->
+                        <!--                          :to="{ name: 'FAQ', hash: '#why-is-there-sometimes-an-umbra-fee' }"-->
+                        <!--                        >-->
+                        <!--                          {{ $t('Send.learn-more') }}-->
+                        <!--                        </router-link>-->
                       </span>
                     </base-tooltip>
                   </td>
@@ -448,12 +448,12 @@
                       <base-tooltip class="col-auto q-ml-xs" icon="fas fa-question-circle">
                         <span>
                           {{ $t('Send.fee-explain', { chainName: currentChain?.chainName }) }}
-                          <router-link
-                            class="dark-toggle hyperlink"
-                            :to="{ name: 'FAQ', hash: '#why-is-there-sometimes-an-umbra-fee' }"
-                          >
-                            {{ $t('Send.learn-more') }}
-                          </router-link>
+                          <!--                          <router-link-->
+                          <!--                            class="dark-toggle hyperlink"-->
+                          <!--                            :to="{ name: 'FAQ', hash: '#why-is-there-sometimes-an-umbra-fee' }"-->
+                          <!--                          >-->
+                          <!--                            {{ $t('Send.learn-more') }}-->
+                          <!--                          </router-link>-->
                         </span>
                       </base-tooltip>
                     </td>

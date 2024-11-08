@@ -3,11 +3,11 @@
     <div class="flex row justify-between q-mb-sm">
       <div class="text-caption self-end">
         {{ $t('AccountSentTable.stored-on-device') }}.
-        <router-link
-          class="cursor-pointer hyperlink"
-          :to="{ name: 'FAQ', hash: '#why-cant-I-see-my-send-history-on-different-devices' }"
-          >{{ $t('AccountSentTable.learn-more') }}</router-link
-        >.
+        <!--        <router-link-->
+        <!--          class="cursor-pointer hyperlink"-->
+        <!--          :to="{ name: 'FAQ', hash: '#why-cant-I-see-my-send-history-on-different-devices' }"-->
+        <!--          >{{ $t('AccountSentTable.learn-more') }}</router-link-->
+        <!--        >.-->
       </div>
       <div class="flex row items-center" v-if="formattedSendMetadata.length > 0">
         <base-button

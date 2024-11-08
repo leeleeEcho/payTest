@@ -9,7 +9,7 @@
       class="horizontal-center q-pb-lg"
       style="max-width: 400px"
     >
-      <router-link class="hyperlink" :to="{ name: 'FAQ' }">{{ $t('Contact.faq') }}</router-link>
+      <!--      <router-link class="hyperlink" :to="{ name: 'FAQ' }">{{ $t('Contact.faq') }}</router-link>-->
     </i18n-t>
 
     <p class="horizontal-center" style="max-width: 400px">
